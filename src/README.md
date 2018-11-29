@@ -16,7 +16,7 @@ Example:
 
 ```
 tar -xf gcp_upload.tar.gz  # Unzip the archive
-./run.sh key.json ../local_file.csv gs://amp-test-bucket/temp/
+./run.sh key.json /path/to/local_file.csv gs://amp-test-bucket/temp/
 ```
 
 ## Caveats
