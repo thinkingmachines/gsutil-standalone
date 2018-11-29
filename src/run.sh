@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-
-say hi
-
 if [ ! -f ./gsutil/gsutil ]; then
     tar xfz gsutil.tar.gz
 fi
